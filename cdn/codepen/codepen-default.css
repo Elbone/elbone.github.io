@@ -2,7 +2,7 @@
 
 
 body {
-  font-family: 'Share Tech Mono', monospace, sans-serif;
+	font-family: 'Share Tech Mono', monospace, sans-serif;
 	color: #666;
 	text-align: center;
 }
@@ -24,5 +24,7 @@ h3 {
 
 
 body {
+	padding: 2em;
 	background-color: #1d1f20;
+	background-image: url('http://assets.codepen.io/images/classy_fabric.png');
 }
