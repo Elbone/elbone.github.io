@@ -2,7 +2,7 @@
 
 
 body {
-  font-family: 'Share Tech Mono', monospace, sans-serif;
+	font-family: 'Share Tech Mono', monospace, sans-serif;
 	color: #666;
 	text-align: center;
 }
@@ -28,4 +28,8 @@ h1,h2,h3 {
 body {
 	padding: 2em;
 	background-color: #1d1f20;
+}
+a {
+	color: #333;
+	text-decoration: none;
 }
