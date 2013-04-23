@@ -24,7 +24,7 @@ h3 {
 p {
 	font-size: 1em;
 	color: #999;
-	line-height: 1em;
+	line-height: 1.2em;
 }
 h1, h2, h3, p {
 	margin: 1em 0 1em 0;
@@ -36,5 +36,5 @@ a {
 body {
 	padding: 2em;
 	background-color: #1d1f20;
-	background-image: url('http://assets.codepen.io/images/classy_fabric.png');
+	//background-image: url('http://assets.codepen.io/images/classy_fabric.png');
 }
