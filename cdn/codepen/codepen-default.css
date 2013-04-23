@@ -21,8 +21,17 @@ h3 {
 	font-weight: normal;
 	color: #999;
 }
-
-
+p {
+	font-size: 1em;
+	color: #999;
+	line-height: 0.8em;
+}
+h1, h2, h3, p {
+	margin: 1em 0 1em 0;
+}
+a {
+	color: #ccc;
+}
 body {
 	padding: 2em;
 	background-color: #1d1f20;
