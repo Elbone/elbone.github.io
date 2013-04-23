@@ -29,6 +29,6 @@
 			c0,1.104,0.896,2,2,2s2-0.896,2-2s-0.896-2-2-2S24,4.896,24,6z"/>
 	</g>
 
-	<script>document.getElementById(location.hash.substring(1)).getElementsByTagName('path')[0].setAttribute('fill', '#fff');</script>
+	<script>document.getElementById(location.hash.substring(1)).getElementsByTagName('path')[0].setAttribute('fill', '#ccc');</script>
 
 </svg>
