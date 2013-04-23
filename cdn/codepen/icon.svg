@@ -7,4 +7,5 @@
    <rect width="128" height="96"/>
    <polygon fill="#FFFFFF" points="80,32.003 50,70 32,56 16,80 112,80 "/>
    <circle fill="#FFFFFF" cx="28" cy="28" r="12"/>
-   <script>document.getElementsByTagName("rect")[0].setAttribute("fill", location.hash);</script></svg>
+   <script>document.getElementsByTagName("rect")[0].setAttribute("fill", location.hash);</script>
+</svg>
