@@ -34,7 +34,7 @@ a {
 	text-decoration: none;
 }
 
-code {
+code, pre {
 	padding: 0.5em;
 	background: #333;
 }
