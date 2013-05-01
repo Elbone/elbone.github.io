@@ -33,6 +33,16 @@ a {
 	color: #ccc;
 	text-decoration: none;
 }
+
+code {
+	padding: 0.5em;
+	max-width: 30em;
+	background: #333;
+	text-align: left;
+	overflow-x: scroll;
+}
+
+
 body {
 	padding: 2em;
 	background-color: #1d1f20;
