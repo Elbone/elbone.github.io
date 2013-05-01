@@ -36,8 +36,10 @@ a {
 
 code {
 	padding: 0.5em;
-	max-width: 30em;
 	background: #333;
+}
+pre {
+	max-width: 30em;
 	text-align: left;
 	overflow-x: scroll;
 }
