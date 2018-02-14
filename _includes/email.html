@@ -1,0 +1,8 @@
+<script>
+  (function(){
+    var e = '{{ include.email }}';
+    var d = '{{ include.domain }}';
+    var str = e + '@' + d;
+    document.write('<a href="mailto:' + str + '">' + str + '</a>');
+  })();
+</script>

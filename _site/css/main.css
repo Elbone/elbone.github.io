@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Astloch|Fruktur|Barlow+Condensed");
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #01FF70;
+  text-align: center;
+  margin-top: 6vw;
+  padding-bottom: 50vh;
+  position: relative; }
+  @media (min-width: 481px) {
+    body {
+      margin-top: 0; } }
+
+html,
+body {
+  min-height: 150%; }
+
+.content {
+  padding: 2vw 0 2vw 0;
+  position: relative; }
+  .content:after {
+    display: block;
+    margin: 1vw 0;
+    padding: 0 2vw;
+    font-family: "Astloch";
+    font-weight: normal;
+    font-size: 18vw;
+    line-height: 1;
+    line-height: 0.8;
+    content: "| |";
+    color: #555;
+    font-family: "Astloch";
+    display: block;
+    margin: 0 auto;
+    width: 0.125rem; }
+    @media (min-width: 641px) {
+      .content:after {
+        font-size: 16vw; } }
+    @media (min-width: 1025px) {
+      .content:after {
+        font-size: 12vw; } }
+  .content h2 {
+    display: block;
+    font-family: "Fruktur";
+    font-size: 5vw;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #555;
+    margin-top: 3vw; }
+    @media (min-width: 641px) {
+      .content h2 {
+        font-size: 4vw; } }
+    @media (min-width: 1025px) {
+      .content h2 {
+        font-size: 2.5vw; } }
+  .content p {
+    font-family: "Barlow Condensed";
+    font-size: 5vw;
+    line-height: 1.5;
+    color: #555;
+    margin: 1em auto;
+    padding: 0 2em; }
+    @media (min-width: 481px) {
+      .content p {
+        font-size: 4vw; } }
+    @media (min-width: 721px) {
+      .content p {
+        font-size: 3vw; } }
+    @media (min-width: 1025px) {
+      .content p {
+        font-size: 2vw; } }
+    @media (min-width: 481px) {
+      .content p {
+        max-width: 80vw; } }
+    @media (min-width: 721px) {
+      .content p {
+        max-width: 60vw; } }
+    @media (min-width: 1025px) {
+      .content p {
+        max-width: 45vw; } }
+  .content a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 0.1vw solid;
+    transition: all 200ms;
+    position: relative; }
+    .content a:hover {
+      color: #000; }
+
+.navigation {
+  padding: 2vw 0; }
+  .navigation-link {
+    transition: all 200ms;
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vw; }
+    @media (min-width: 1025px) {
+      .navigation-link {
+        margin-bottom: 1vw; } }
+    .navigation-link:hover {
+      color: #000;
+      transform: scale(1.02); }
+    .navigation-link .navigation-title {
+      position: relative; }
+    .navigation-link__current .navigation-title:after {
+      content: "————————————————";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      letter-spacing: -2rem; }
+  .navigation-title {
+    display: block;
+    margin: 1vw 0;
+    padding: 0 2vw;
+    font-family: "Astloch";
+    font-weight: normal;
+    font-size: 18vw;
+    line-height: 1;
+    padding: 0 2rem; }
+    @media (min-width: 641px) {
+      .navigation-title {
+        font-size: 16vw; } }
+    @media (min-width: 1025px) {
+      .navigation-title {
+        font-size: 12vw; } }
+  .navigation-subtitle {
+    display: block;
+    font-family: "Fruktur";
+    font-size: 5vw;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    margin-top: -0.5em; }
+    @media (min-width: 641px) {
+      .navigation-subtitle {
+        font-size: 4vw; } }
+    @media (min-width: 1025px) {
+      .navigation-subtitle {
+        font-size: 2.5vw; } }
+    @media (min-width: 1025px) {
+      .navigation-subtitle {
+        margin-top: -0.75em; } }
+
+.jump-link {
+  font-family: "Barlow Condensed";
+  font-size: 5vw;
+  line-height: 1.5;
+  color: #555;
+  position: fixed;
+  z-index: 5;
+  top: 0.5vw;
+  padding: 0.5vw 1.5vw;
+  text-decoration: none; }
+  @media (min-width: 481px) {
+    .jump-link {
+      font-size: 4vw; } }
+  @media (min-width: 721px) {
+    .jump-link {
+      font-size: 3vw; } }
+  @media (min-width: 1025px) {
+    .jump-link {
+      font-size: 2vw; } }
+  .jump-link__to-nav {
+    left: 0.5vw; }
+  .jump-link__to-top {
+    right: 0.5vw; }
+.jump-hidden {
+  position: fixed;
+  top: -10000em; }
+
+.header {
+  margin: 0 0 4vw 0;
+  color: #555; }
+  .header .title {
+    display: block;
+    margin: 1vw 0;
+    padding: 0 2vw;
+    font-family: "Astloch";
+    font-weight: normal;
+    font-size: 18vw;
+    line-height: 1; }
+    @media (min-width: 641px) {
+      .header .title {
+        font-size: 16vw; } }
+    @media (min-width: 1025px) {
+      .header .title {
+        font-size: 12vw; } }
+  .header .subtitle {
+    display: block;
+    font-family: "Fruktur";
+    font-size: 5vw;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    margin-top: -2vw; }
+    @media (min-width: 641px) {
+      .header .subtitle {
+        font-size: 4vw; } }
+    @media (min-width: 1025px) {
+      .header .subtitle {
+        font-size: 2.5vw; } }
+
+.footer {
+  position: absolute;
+  bottom: 1vh;
+  left: 0;
+  right: 0; }
+  .footer a {
+    font-family: "Barlow Condensed";
+    font-size: 5vw;
+    line-height: 1.5;
+    text-decoration: none; }
+    @media (min-width: 481px) {
+      .footer a {
+        font-size: 4vw; } }
+    @media (min-width: 721px) {
+      .footer a {
+        font-size: 3vw; } }
+    @media (min-width: 1025px) {
+      .footer a {
+        font-size: 2vw; } }
+
+.figure {
+  max-width: 960px;
+  display: block;
+  margin: 4vw auto; }
+  .figure img,
+  .figure video {
+    width: 100%;
+    height: auto;
+    display: block; }
+  .figure figcaption {
+    font-family: "Barlow Condensed";
+    font-size: 5vw;
+    line-height: 1.5;
+    display: block;
+    padding: 1vw 0 1vw 0;
+    color: #1ac364; }
+    @media (min-width: 481px) {
+      .figure figcaption {
+        font-size: 4vw; } }
+    @media (min-width: 721px) {
+      .figure figcaption {
+        font-size: 3vw; } }
+    @media (min-width: 1025px) {
+      .figure figcaption {
+        font-size: 2vw; } }
+  .figure__icon {
+    max-width: 160px; }
+  .figure__xs {
+    max-width: 320px; }
+  .figure__sm {
+    max-width: 480px; }
+  .figure__md {
+    max-width: 640px; }

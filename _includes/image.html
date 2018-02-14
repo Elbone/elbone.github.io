@@ -1,0 +1,11 @@
+<figure class="figure figure-image {{include.class}}">
+  {% assign path = '/assets/' | prepend: site.baseurl | append: include.src %}
+  <img 
+    src="{{ path }}?v={{ site.version }}" 
+    alt="{{include.alt}}">
+  {% if include.caption %}
+    <figcaption {% if include.lang %}lang="{{include.lang}}{% endif %}">
+      {{ include.caption }}
+    </figcaption>
+  {% endif %}
+</figure>

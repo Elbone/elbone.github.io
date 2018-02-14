@@ -1,0 +1,11 @@
+<figure class="figure figure-video {{include.class}}">
+  {% assign path = '/assets/' | prepend: site.baseurl | append: include.src %}
+  <video autoplay loop poster="{{ path }}.png?v={{ site.version }}">
+    <source src="{{ path }}.mp4?v={{ site.version }}" type="video/mp4" />
+    <source src="{{ path }}.ogg?v={{ site.version }}" type="video/ogg" />
+    <source src="{{ path }}.webm?v={{ site.version }}" type="video/webm" />
+  </video>
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

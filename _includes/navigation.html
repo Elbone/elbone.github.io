@@ -1,0 +1,41 @@
+{% unless page.page == 'home' %}
+  <div class="jump">
+    <a 
+      class="jump-link jump-link__to-nav" 
+      href="#navigation">
+      <span class="jump-hidden">Jump to</span>
+      <span class="jump-visible">Menu</span>
+    </a>
+    <a 
+      class="jump-link jump-link__to-top" 
+      href="#content">
+      <span class="jump-hidden">Jump to</span>
+      <span class="jump-visible">Top</span>
+    </a>
+  </div>
+{% endunless %}
+<nav class="navigation" id="navigation">
+  <a class="navigation-link" href="/">
+    <span class="navigation-title">
+      Niels Oeltjen
+    </span>
+    <span class="navigation-subtitle">
+      Digital Maker & Artist
+    </span>
+  </a>
+  {% for item in site.data.links %}
+    <a 
+      class="
+        navigation-link 
+        {% if item.url == page.url %}navigation-link__current{% endif %}
+      "
+      href="{{ item.url }}">
+      <span class="navigation-title">
+        {{ item.title }}
+      </span>
+      <span class="navigation-subtitle">
+        {{ item.subtitle }}
+      </span>
+    </a>
+  {% endfor %}
+</nav>

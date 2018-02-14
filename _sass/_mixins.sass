@@ -1,0 +1,38 @@
+@mixin text-title
+  display: block
+  margin: 1vw 0
+  padding: 0 2vw
+  font-family: "Astloch"
+  font-weight: normal
+  font-size: 18vw
+  line-height: 1
+  @include media(">6")
+    font-size: 16vw
+  @include media(">10")
+    font-size: 12vw
+
+@mixin text-subtitle
+  display: block
+  font-family: "Fruktur"
+  font-size: 5vw
+  line-height: 1.25
+  letter-spacing: 0.02em
+  @include media(">6")
+    font-size: 4vw
+  @include media(">10")
+    font-size: 2.5vw
+ 
+@mixin text-body
+  font-family: "Barlow Condensed"
+  font-size: 5vw
+  line-height: 1.5
+  @include media(">4")
+    font-size: 4vw
+  @include media(">7")
+    font-size: 3vw
+  @include media(">10")
+    font-size: 2vw
+
+@mixin focus
+  outline: 2px solid blue
+  color: blue
