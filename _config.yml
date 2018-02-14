@@ -7,9 +7,8 @@
 
 # Site settings
 title: Niels Oeltjen Folio
-email: niels@nielsoeltjen.com
-description: > # this means to ignore newlines until "baseurl:"
-  Niels Oeltjen Folio
+description: Niels Oeltjen Folio
+url: elbone.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
