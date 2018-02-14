@@ -1,6 +1,7 @@
 // Font loading
 .webfonts
   position: fixed
+  z-index: 20
   top: 0
   bottom: 0
   left: 0
@@ -9,10 +10,15 @@
   background-size: 16px
   background-position: center top
   &-text
-    font-size: 2rem
+    font-size: 1rem
     font-family: sans-serif
-    color: white
-    padding: 1rem
+    color: $charcoal
+    padding: 1em 2em
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    background-color: $grey
   .wf-loading &
     display: block
   .wf-active &,
