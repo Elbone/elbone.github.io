@@ -25,6 +25,29 @@
       max-width: 60vw
     @include media(">10")
       max-width: 45vw
+  blockquote
+    +text-subtitle
+    color: $forest
+    background-color: $grey
+    margin: 1em auto
+    padding: 1.5em 2em
+    position: relative
+    &:before
+      content: '“'
+      position: absolute
+      top: 0.5em
+      left: 0.6em
+    &:after
+      content: '”'
+      position: absolute
+      bottom: 0
+      right: 0.6em
+    @include media(">4")
+      max-width: 80vw
+    @include media(">7")
+      max-width: 60vw
+    @include media(">10")
+      max-width: 45vw
   a
     color: $charcoal
     text-decoration: none
