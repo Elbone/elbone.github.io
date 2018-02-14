@@ -1,0 +1,20 @@
+// Font loading
+.webfonts
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="#{$green}"><circle cx="0" cy="0" r="16"></circle><circle cx="64" cy="0" r="16"></circle><circle cx="64" cy="64" r="16"></circle><circle cx="0" cy="64" r="16"></circle><circle cx="32" cy="32" r="16"></circle></g></svg>')
+  background-size: 16px
+  background-position: center top
+  &-text
+    font-size: 2rem
+    font-family: sans-serif
+    color: white
+    padding: 1rem
+  .wf-loading &
+    display: block
+  .wf-active &,
+  .wf-inactive &
+    display: none

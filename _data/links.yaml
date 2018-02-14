@@ -1,14 +1,14 @@
 - title: About me
   subtitle: History & such
-  url: /about-me/
+  url: /about-me/#
 
 - title: How I work
   subtitle: Approach & methods
-  url: /how-i-work/
+  url: /how-i-work/#
   
 - title: Billcap
   subtitle: Case study
-  url: /case-study/billcap/
+  url: /case-study/billcap/#
 
 # - title: Jemena
 #   subtitle: Case study
@@ -16,7 +16,7 @@
 
 - title: Redbubble
   subtitle: Case study
-  url: /case-study/redbubble/
+  url: /case-study/redbubble/#
 
 # - title: Trust
 #   subtitle: Case study
@@ -24,4 +24,4 @@
 
 - title: Contact me
   subtitle: Email & phone
-  url: /contact-me/
+  url: /contact-me/#
