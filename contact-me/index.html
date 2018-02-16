@@ -6,7 +6,12 @@ subtitle: Email & phone
 
 <p>
   To find out more or arrange a meeting please contact me on
-  <a href="tel:+61430148159">+61 (0) 430 148 159</a> or
+  {% assign phone = '+61 (0) 430 148 159' | replace:' ','&nbsp;' %}
+  {% include link.html
+    href="tel:+61430148159"
+    text=phone
+  %} 
+  or
   {% include email.html 
     email="niels"
     domain="nielsoeltjen.com"

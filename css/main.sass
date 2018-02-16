@@ -8,9 +8,9 @@
 @import "_variables"
 @import "_mixins"
 @import "_global"
-@import "_webfonts"
 
 // Components
+@import "webfonts"
 @import "content"
 @import "navigation"
 @import "jump"
@@ -18,3 +18,10 @@
 @import "footer"
 @import "figure"
 @import "skills"
+
+.error-404
+  h1
+    +text-title
+  a
+    +text-body
+    +text-link

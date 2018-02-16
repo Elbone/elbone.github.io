@@ -1,6 +1,8 @@
-<footer class="footer">
-  <a href="http://github.com/Elbone">🕸</a>
-</footer>
+{% unless page.name == "404.html" %}
+  <footer class="footer">
+    <a href="http://github.com/Elbone">🕸</a>
+  </footer>
+{% endunless %}
 
 <div class="webfonts">
   <div class="webfonts-text">Loading stuff</div>
@@ -17,8 +19,11 @@
   window.viewportUnitsBuggyfill.init();
   WebFont.load({
     google: {
-      families: ['Astloch', 'Fruktur', 'Barlow Condensed'],
-      timeout: 2000
+      families: ['Astloch', 'Fruktur', 'Barlow Condensed']    
     }
   });
+  window.setTimeout(function() {
+    console.log('setTimeout');
+    document.documentElement.classList.remove("wf-loading");
+  }, 3000);
 </script>

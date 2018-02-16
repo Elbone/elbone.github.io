@@ -1,7 +1,8 @@
-@mixin text-title
+@mixin text-title($color: $charcoal)
   display: block
   margin: 1vw 0
   padding: 0 2vw
+  color: $color
   font-family: "Astloch", sans-serif
   font-weight: normal
   font-size: 18vw
@@ -11,8 +12,9 @@
   @include media(">10")
     font-size: 12vw
 
-@mixin text-subtitle
+@mixin text-subtitle($color: $charcoal)
   display: block
+  color: $color
   font-family: "Fruktur", sans-serif
   font-size: 5vw
   line-height: 1.25
@@ -22,7 +24,8 @@
   @include media(">10")
     font-size: 2.5vw
  
-@mixin text-body
+@mixin text-body($color: $charcoal)
+  color: $color
   font-family: "Barlow Condensed", sans-serif
   font-size: 5vw
   line-height: 1.5
@@ -33,6 +36,18 @@
   @include media(">10")
     font-size: 2vw
 
-@mixin focus
-  outline: 2px solid blue
-  color: blue
+@mixin text-link($color: $charcoal)
+  color: $color
+  border-bottom: 0.075em solid
+  transition: all 200ms
+  text-decoration: none
+  &:hover
+    color: $black
+  &:focus
+    outline: 2px solid blue
+    color: blue
+  &:visited
+    color: $forest
+  &:visited:hover
+    color: $black
+  

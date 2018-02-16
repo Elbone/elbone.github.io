@@ -5,18 +5,14 @@
     +text-title
     line-height: 0.8
     content: "| |"
-    color: $charcoal
-    font-family: "Astloch"
     display: block
     margin: 0 auto
     width: 0.125rem
   h2
     +text-subtitle
-    color: $charcoal
     margin-top: 3vw
   p
     +text-body
-    color: $charcoal
     margin: 1em auto
     padding: 0 2em
     @include media(">4")
@@ -27,8 +23,7 @@
     @include media(">10")
       max-width: 45vw
   blockquote
-    +text-subtitle
-    color: $forest
+    +text-subtitle($forest)
     background-color: $grey
     margin: 1em auto
     padding: 1.5em 2em
@@ -50,11 +45,7 @@
     @include media(">10")
       max-width: 45vw
   a
-    color: $charcoal
-    text-decoration: none
-    border-bottom: 0.1vw solid
-    transition: all 200ms
-    position: relative
-    &:hover
-      color: $black
+    +text-body
+    +text-link
+
   
