@@ -25,10 +25,7 @@
   </a>
   {% for item in site.data.links %}
     <a 
-      class="
-        navigation-link 
-        {% if item.url == page.url %}navigation-link__current{% endif %}
-      "
+      class="navigation-link {% if item.url == page.url %}navigation-link__current{% endif %}"
       href="{{ item.url }}">
       <span class="navigation-title">
         {{ item.title }}
