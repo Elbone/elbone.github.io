@@ -8,4 +8,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
 
 # Increment to bust cache
-version: 1
+version: 1.1
