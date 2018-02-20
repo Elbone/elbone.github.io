@@ -10,6 +10,10 @@
   subtitle: Case study
   url: /case-study/billcap/
 
+- title: Trust
+  subtitle: Case study
+  url: /case-study/trust/ 
+
 # - title: Jemena
 #   subtitle: Case study
 #   url: /case-study/jemena/
@@ -17,10 +21,6 @@
 - title: Redbubble
   subtitle: Case study
   url: /case-study/redbubble/
-
-# - title: Trust
-#   subtitle: Case study
-#   url: /case-study/trust/  
 
 - title: Contact me
   subtitle: Email & phone
