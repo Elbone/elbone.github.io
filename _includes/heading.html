@@ -1,6 +1,6 @@
 {% assign link = include.text | strip | downcase | replace: ' ', '-' %}
-<a href="#{{link}}">
-  <h2 id="{{link}}">
+<h2 id="{{link}}">
+  <a href="#{{link}}">
     {{include.text}}
-  </h2>
-</a>
+  </a>
+</h2>
