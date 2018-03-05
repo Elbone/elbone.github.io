@@ -1,7 +1,27 @@
 <div class="download">
-  <a download 
+ <a download 
     class="download-link"
     href="/assets/{{include.src}}">
-    {{include.text}}
+    <svg 
+      width="18" height="22" 
+      viewBox="0 0 18 22">
+      <rect 
+        x="1" y="1" 
+        width="16" height="20" 
+        fill="none" stroke="currentColor" 
+        stroke-width="2" rx="1" ry="1">
+      </rect>
+      {% for i in (1..3) %}
+        {% assign y = i | times: 4 | plus: 2 %}
+        <rect 
+          x="4" y="{{y}}" 
+          width="10" height="2" 
+          fill="currentColor"
+          opacity="0.7">
+        </rect>
+      {% endfor %}
+      </rect>
+    </svg>
+    <span>{{include.text}}</span>
   </a>
 </div>
