@@ -2,11 +2,11 @@
 - skill: Service Design
   rating: 4
 - skill: UX Research
-  rating: 6
+  rating: 5
 - skill: UX Design
-  rating: 8
+  rating: 7
 - skill: Information Design
-  rating: 10
+  rating: 9
 
 # UI stuff
 - skill: UI Design
@@ -18,4 +18,4 @@
 - skill: Frontend Development
   rating: 9
 - skill: Backend Development
-  rating: 6
+  rating: 5

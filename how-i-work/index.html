@@ -98,20 +98,7 @@ subtitle: Approach & methods
   if you’d like to talk about about something
   I didn’t cover here, or if you’d like to meet
   up (though beware, I don’t drink coffee).
-  Before you go here’s a fun little chart showing
-  how good I am at stuff (according to me).
-  So relative, so un-scientific.
 </p>
-<ul class="skills">
-  {% for item in site.data.skills %}
-    <li class="skills-item skills-item__{{ item.rating }}">
-      <span class="skills-label">
-        {{ item.skill }}
-      </span>
-    </li>
-  {% endfor %}
-</ul>
-
 {% include download.html
   src="NielsOeltjen-CV-2018.pdf"
   text="Download my CV"

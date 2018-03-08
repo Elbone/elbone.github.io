@@ -1,0 +1,35 @@
+.skills-breakdown
+  padding: 0 8px
+  &--table
+    margin: 0 auto
+    border-collapse: collapse
+    th, td
+      text-align: left
+      vertical-align: top
+      border: 4px solid $green
+      background-color: white
+      padding: 6px 16px 8px 16px
+    th
+      +text-body
+      font-weight: normal
+    td
+      +text-body($forest)
+    thead
+      position: fixed
+      top: -200vh
+
+
+    @include media("<6")
+      &, thead, tbody,
+      tr, td, th
+        width: 100%
+        display: block
+      tbody
+        td, th
+          margin-top: -4px
+          // border: 0.1em solid $forest
+          padding: 0.1em 1em 0.25em 1em
+        th
+          +text-body
+          // background-color: $forest
+          // color: white

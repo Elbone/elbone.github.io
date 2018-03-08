@@ -1,0 +1,9 @@
+<ul class="skills-weighting">
+{% for item in site.data.skills-weighting %}
+  <li class="skills-weighting--item skills-weighting--item__{{ item.rating }}">
+    <span class="skills-weighting--label">
+      {{ item.skill }}
+    </span>
+  </li>
+{% endfor %}
+</ul>

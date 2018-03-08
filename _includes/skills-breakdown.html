@@ -1,0 +1,18 @@
+<div class="skills-breakdown">
+  <table class="skills-breakdown--table">
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.skills-breakdown %}
+        <tr>
+          <th>{{ item.skill }}</th>
+          <td>{{ item.comment }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

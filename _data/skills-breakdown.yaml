@@ -1,0 +1,57 @@
+# design
+- skill: Design Thinking
+  comment: I’m an avid practitioner of Design Thinking and Human-centered Design.
+- skill: UX Design
+  comment: Designing user flows, CX, user journey mapping, analysis.
+- skill: Wireframing
+  comment: Information architecture design and user flows in whatever tool makes sense.
+- skill: UI Design
+  comment: Component-driven design, interaction modelling, assets, widgets, and gizmos.
+- skill: Design systems
+  comment: Style guides, UI kits, and component libraries.
+- skill: Prototyping
+  comment: Low-fidelity static prototypes, InVision, interactive HTML+CSS.
+- skill: Tooling
+  comment: High-level skills in Sketch, Photoshop, Illustrator, and Indesign.
+- skill: Typography
+  comment: I worked at Letterbox under master Typographer Stephen Banham.
+
+# process
+- skill: Research
+  comment: User interviews, UX testing, data collection and collation.
+- skill: Facilitation
+  comment: Co-creation workshops, scope definition and requirements gathering sessions, post-mortems and retros.
+- skill: Documentation
+  comment: Research docs, spec docs, API design docs, and everything in between.
+- skill: Agile
+  comment: Card-carrying member of the Agile Cult.
+
+# content
+- skill: Information Architecture
+  comment: Content auditing, wireframing, and content hierarchy design.
+- skill: Content Design
+  comment: Content development, writing and editing, asset co-ordination, text messages to my wife.
+- skill: Place-holding
+  comment: This joke intentionally left blank.
+
+# development
+- skill: Languages
+  comment: JavaScript, javascript, and js. Also TypeScript, CoffeeScript, Ruby, and PHP.
+- skill: HTML
+  comment: Semantic, accessible, and standards compliant (SEO, HTML5, etc). I prefer Pug, SugarML, Markdown etc.
+- skill: CSS
+  comment: Modern, or bleeding edge, with sensible fallbacks for Microsoft Internet Excruciator.
+- skill: Command line
+  comment: I can do it all with a little `-h`.
+- skill: Version control
+  comment: Git. Nothing else.
+- skill: Code Editors
+  comment: I prefer Atom, but use Sublime too.
+- skill: Frontend frameworks
+  comment: Vue, React, and will do others.
+- skill: Node
+  comment: Big fan. Happiest when I’m using Webpack and build tools.
+- skill: Backend Development
+  comment: Quite a lot of exposure to Rails, but others not so much (apart from Node). Basic server config is fine too.
+- skill: WordPress
+  comment: Yeah, I can do that, but don’t ask me to like it.

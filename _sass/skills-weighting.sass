@@ -1,24 +1,24 @@
-.skills
+.skills-weighting
   text-align: left
   max-width: 100%
-  margin: 4em auto
+  margin: 0 auto
   list-style-type: none
-  outline: 2px solid white
+  padding: 0 8px
   @include media(">4")
     max-width: 80vw
   @include media(">7")
     max-width: 60vw
   @include media(">10")
     max-width: 45vw
-  &-label
+  &--label
     position: relative
     z-index: 1
-  &-item
+  &--item
     +text-body
     color: $forest
     position: relative
-    padding: 0.1em 1em 0.25em 1em
-    outline: 2px solid $green
+    padding: 6px 16px 8px 16px
+    margin-bottom: 4px
     &:before
       content: ''
       position: absolute
@@ -26,7 +26,6 @@
       bottom: 0
       left: 0
       background-color: white
-      outline: 2px solid $green
     @for $i from 1 through 11
       &__#{$i}:before
         width: $i*10%
