@@ -1,13 +1,10 @@
 # Folio site
 
-elbone.github.io
+A web folio thing.
 
-A web folio thing
+See it at [elbone.github.io](elbone.github.io)
 
 ## Todo
-
-Content
-- Add image of card-sort
 
 Dev
 - Review and fix meta tags
